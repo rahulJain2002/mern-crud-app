@@ -11,6 +11,14 @@
     text-align: center;
 }
 
+.oval{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
 .add-btn{
     text-decoration: none;
     background-color: purple;
