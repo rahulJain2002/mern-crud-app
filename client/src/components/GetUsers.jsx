@@ -17,7 +17,7 @@ const GetUsers = () => {
 	useEffect(() => {
 		async function getData() {
 			try{
-				const resp = await axios.get("http://localhost:8000/getall")
+				const resp = await axios.get("https://mern-crud-backend-ep14.onrender.com/getall")
 				// console.log(resp.data);
 				setUsers(resp.data);
 			}
@@ -41,7 +41,7 @@ const GetUsers = () => {
 
 			async function deleting(){
 				try{
-					const resp = await axios.delete(`http://localhost:8000/deleteone/${userId}`);
+					const resp = await axios.delete(`https://mern-crud-backend-ep14.onrender.com/deleteone/${userId}`);
 					toast.success(resp.data.msg);
 
 					window.location.reload();

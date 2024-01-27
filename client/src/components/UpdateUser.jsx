@@ -23,7 +23,7 @@ const UpdateUser = () => {
     event.preventDefault();
 
     try{
-      const resp = await axios.put(`http://localhost:8000/updateone/${id}`, user);
+      const resp = await axios.put(`https://mern-crud-backend-ep14.onrender.com/updateone/${id}`, user);
       // console.log(resp);
       toast.success(resp.data.msg);
     }
@@ -35,7 +35,7 @@ const UpdateUser = () => {
   useEffect(()=>{
     async function getData(){
       try{
-        const resp = await axios.get(`http://localhost:8000/getone/${id}`);
+        const resp = await axios.get(`https://mern-crud-backend-ep14.onrender.com/getone/${id}`);
         // console.log(resp.data);
         setUser(resp.data);
       }

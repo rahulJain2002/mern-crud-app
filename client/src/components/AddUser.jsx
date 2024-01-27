@@ -36,7 +36,7 @@ const AddUser = () => {
 		event.preventDefault()
 
 		try{
-			const resp = await axios.post("http://localhost:8000/createone", user)
+			const resp = await axios.post("https://mern-crud-backend-ep14.onrender.com/createone", user)
 			// console.log(resp);
 			clearingFields()
 			toast.success("Successfully Created", {position: "top-right"})
