@@ -55,18 +55,12 @@ It is built using the MERN stack and uses MongoDB Atlas for storing real-time da
 
 6. Start the react development server using:
 
-   ```javascrip
+   ```javascript
    cd client
-   npm run de
+   npm run dev
    ```
 
-7. Start the socket using:
-
-   ```javascrip
-   cd socket
-   npm start
-   ```
-8 Open your web browser and visit http://localhost:5173 to run the application
+7. Open your web browser and visit http://localhost:5173 to run the application
 
 
 
@@ -80,7 +74,5 @@ It is built using the MERN stack and uses MongoDB Atlas for storing real-time da
  <img src="https://img.shields.io/badge/gmail-D14836?&style=for-the-badge&logo=gmail&logoColor=white" />
 </a> 
 
-<br>
-<br>
 <br>
 
