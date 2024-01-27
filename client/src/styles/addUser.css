@@ -1,0 +1,104 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.add-user-container{
+    background-color: white;
+    width: 35%;
+    box-shadow: 1px 1px 8px rgba(17, 2, 2, 0.551);
+    border-radius: 5px;
+    margin: 25px auto;
+    padding: 50px;
+    position: relative;
+}
+
+.add-user-container a{
+    position: absolute;
+    top: 7%;
+
+}
+
+.add-user-container h3{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.add-user-form{
+    margin-top: 10px;
+}
+
+button[type="submit"]{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(97, 3, 97);
+}
+
+
+.input-group{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-group label{
+    margin-top: 10px ;
+}
+
+.input-group input{
+    margin-top: 2px;
+    padding: 10px;
+    outline: none;
+}
+
+
+
+@media (max-width: 1030px){
+    .add-user-container{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 900px){
+    .add-user-container{
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .add-user-container{
+        width: 70%;
+    }
+}
+
+@media (max-width: 415px){
+
+    .add-user-container{
+        width: 80%;
+        margin: 25% auto;
+    }
+
+    .add-user-container a{
+        top: 3%;
+    }
+
+    .input-group{
+        margin-top: 10px;
+    }
+
+}
+

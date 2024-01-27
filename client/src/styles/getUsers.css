@@ -1,0 +1,142 @@
+.main-container{
+    width: 68%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(17, 2, 2, 0.551);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.not-found-header{
+    text-align: center;
+}
+
+.add-btn{
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    box-shadow: 1px 1px 8px rgba(71, 16, 16, 0.238);
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover{
+    background-color: rgb(97, 3, 97);
+}
+
+.main-container table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.main-container table thead th{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+}
+
+.main-container table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+
+.action-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btns button{
+    display: flex;
+    border: 0;
+    padding: 4px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px 8px;
+    font-size: 1.2rem;
+}
+
+.btn-1{
+    background-color: red;
+}
+.btn-2{
+    background-color: green;
+}
+
+.action-btns a{
+    color: white;
+    display: flex;
+}
+
+
+
+
+@media (max-width:1250px){
+    .main-container{
+        width: 90%;
+        padding: 2%;
+    }
+}
+
+
+@media (max-width:800px){
+    .main-container{
+        width: 95%;
+        padding: 2%;
+    }
+    .main-container table tbody td{
+        padding: 5px;
+    }
+}
+
+@media (max-width:620px){
+    .main-container{
+        font-size: 0.8rem;
+        padding: 1%;
+    }
+    .action-btns button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:490px){
+    .main-container{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:450px){
+    .main-container{
+        font-size: 0.6rem;
+    }
+    .action-btns button{
+        margin: 3px;
+        padding: 3px;
+    }
+}
+
+@media (max-width:360px){
+    .main-container{
+        font-size: 0.5rem;
+    }
+    .action-btns button{
+        margin: 1px;
+        padding: 2px;
+    }
+}
+
+@media (max-width:330px){
+    .main-container{
+        font-size: 0.4rem;
+    }
+    .action-btns button{
+        margin: 0.4px;
+        padding: 1px;
+    }
+}
+
